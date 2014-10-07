@@ -1,7 +1,7 @@
 {
-  "name": "Lecture-3",
+  "name": "hello-node-js",
   "version": "0.1.0",
-  "description": "",
+  "description": "Hello there Node.js World",
   "main": "task-3.js",
   "dependencies": {
     "moment": "^2.8.3"
@@ -12,6 +12,6 @@
   "scripts": {
     "test": "node_modules/.bin/nodeunit last-mod_spec.js --reporter verbose"
   },
-  "author": "",
+  "author": "Juga Paazmaya <paazmaya@yahoo.com>",
   "license": "MIT"
 }
