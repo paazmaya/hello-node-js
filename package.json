@@ -4,13 +4,16 @@
   "description": "Hello there Node.js World",
   "main": "task-3.js",
   "dependencies": {
-    "moment": "^2.8.3"
+    "clui": "~0.3",
+    "nano": "~6.0",
+    "moment": "~2.8"
   },
   "devDependencies": {
-    "nodeunit": "^0.9.0"
+    "nodeunit": "~0.9"
   },
   "scripts": {
-    "test": "node_modules/.bin/nodeunit last-mod_spec.js --reporter verbose"
+    "test": "node_modules/.bin/nodeunit last-mod_spec.js --reporter verbose",
+    "coverage": "istanbul cover ./node_modules/nodeunit/bin/nodeunit -- tests"
   },
   "author": "Juga Paazmaya <paazmaya@yahoo.com>",
   "license": "MIT"
