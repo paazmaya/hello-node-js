@@ -18,7 +18,7 @@ exports.lastMod = function(test){
 	
 	// Correct year and month
 	test.equal(yes.getFullYear(), 2014, 'Year is matching');
-	test.equal(yes.getMonth(), 8, 'Month is September');
+	test.equal(yes.getMonth(), 9, 'Month is October');
 	
     test.done();
 };
