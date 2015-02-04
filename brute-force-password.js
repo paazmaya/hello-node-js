@@ -9,7 +9,7 @@ var crypto = require('crypto'),
 var start = (new Date()).getTime();
 var time = function () {
 	return (new Date()).getTime() - start;
-}
+};
 
 // from https://www.npmjs.org/package/char-range
 var range = function(start, stop) {
@@ -20,7 +20,7 @@ var range = function(start, stop) {
 	return result;
 };
 
-var chars = range('a', 'z').concat(range('A', 'Z'), 
+var chars = range('a', 'z').concat(range('A', 'Z'),
 	['å', 'ä', 'ö'], ['Å', 'Ä', 'Ö'],
 	range('0', '9'));
 //util.puts(util.inspect(chars));
