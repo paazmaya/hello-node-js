@@ -23,7 +23,7 @@ var range = function(start, stop) {
 var chars = range('a', 'z').concat(range('A', 'Z'),
 	['å', 'ä', 'ö'], ['Å', 'Ä', 'Ö'],
 	range('0', '9'));
-//util.puts(util.inspect(chars));
+//console.log(util.inspect(chars));
 
 var createHash = function (word) {
 	var shasum = crypto.createHash('sha1');
@@ -41,9 +41,9 @@ var iterateChars = function(prefix) {
 	for (var i = 0; i < len; ++i) {
 		var word = prefix + chars[i];
 		var sha1 = createHash(word);
-		//util.puts(time() + ' ' + word + ' = ' + sha1);
+		//console.log(time() + ' ' + word + ' = ' + sha1);
 		if (sha1 === passHash) {
-			util.puts('Password found. Time used: ' + time() + ' ms');
+			console.log('Password found. Time used: ' + time() + ' ms');
 			return;
 		}
 		if (word.length < maxLength) {

@@ -17,13 +17,13 @@ if (process.argv.length === 3) {
 var server = nano(url);
 var registry = server.use(name);
 
-//util.puts(util.inspect(registry));
+//console.log(util.inspect(registry));
 
 registry.get('latest', function(err, body) {
 	if (err) {
 		util.error(err);
 	}
-	//util.puts(util.inspect(body));
+	//console.log(util.inspect(body));
 
-	util.puts('Latest version of ' + name + ' is ' + body.version);
+	console.log('Latest version of ' + name + ' is ' + body.version);
 });
