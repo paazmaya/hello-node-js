@@ -5,8 +5,8 @@
   "main": "task-3.js",
   "dependencies": {
     "clui": "~0.3",
-    "nano": "~6.0",
-    "moment": "~2.8"
+    "nano": "~6.1",
+    "moment": "~2.10"
   },
   "devDependencies": {
     "nodeunit": "~0.9"
