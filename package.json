@@ -15,6 +15,10 @@
     "test": "node_modules/.bin/nodeunit last-mod_spec.js --reporter verbose",
     "coverage": "istanbul cover ./node_modules/nodeunit/bin/nodeunit -- tests"
   },
-  "author": "Juga Paazmaya <paazmaya@yahoo.com>",
+  "author": {
+    "name": "Juga Paazmaya",
+    "email": "paazmaya@yahoo.com",
+    "url": "http://paazmaya.divshot.io"
+  },
   "license": "MIT"
 }
