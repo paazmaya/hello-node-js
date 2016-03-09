@@ -6,7 +6,7 @@
   "dependencies": {
     "clui": "~0.3",
     "nano": "~6.2",
-    "moment": "~2.11"
+    "moment": "~2.12"
   },
   "devDependencies": {
     "nodeunit": "~0.9"
