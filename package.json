@@ -6,19 +6,23 @@
   "dependencies": {
     "clui": "~0.3",
     "nano": "~6.2",
-    "moment": "~2.14"
+    "moment": "~2.14",
+    "snyk": "^1.18.0"
   },
   "devDependencies": {
     "nodeunit": "~0.9"
   },
   "scripts": {
     "test": "node_modules/.bin/nodeunit last-mod_spec.js --reporter verbose",
-    "coverage": "istanbul cover ./node_modules/nodeunit/bin/nodeunit -- tests"
+    "coverage": "istanbul cover ./node_modules/nodeunit/bin/nodeunit -- tests",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": {
     "name": "Juga Paazmaya",
     "email": "paazmaya@yahoo.com",
     "url": "https://paazmaya.fi"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
