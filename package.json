@@ -16,7 +16,7 @@
     "moment": "~2.17"
   },
   "devDependencies": {
-    "nodeunit": "~0.10"
+    "nodeunit": "~0.11"
   },
   "scripts": {
     "test": "node_modules/.bin/nodeunit last-mod_spec.js --reporter verbose",
