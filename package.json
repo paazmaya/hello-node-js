@@ -6,6 +6,10 @@
   "engines": {
     "node": ">=6.9.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paazmaya/hello-node-js.git"
+  },
   "dependencies": {
     "clui": "~0.3",
     "nano": "~6.2",
