@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "clui": "~0.3",
-    "nano": "~6.2",
+    "nano": "~6.3",
     "moment": "~2.18"
   },
   "devDependencies": {
