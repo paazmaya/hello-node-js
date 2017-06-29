@@ -2,9 +2,14 @@
 var fs = require('fs');
 
 module.exports = function(filename) {
-	if (fs.existsSync(filename)) {
+
+  try {
 		var stat = fs.statSync(filename);
 		return stat.mtime;
-	}
+  }
+  catch(error) {
+    console.error(error.message);
+  }
+
 	return false;
 };
