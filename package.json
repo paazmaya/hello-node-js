@@ -14,7 +14,7 @@
     "clui": "~0.3",
     "nano": "~7.0",
     "moment": "~2.22.2",
-    "snyk": "^1.91.0"
+    "snyk": "^1.94.0"
   },
   "devDependencies": {
     "nodeunit": "~0.11"
