@@ -13,8 +13,8 @@
   "dependencies": {
     "clui": "~0.3",
     "nano": "~7.1",
-    "moment": "~2.22.2",
-    "snyk": "^1.108.0"
+    "moment": "~2.23.0",
+    "snyk": "^1.117.1"
   },
   "devDependencies": {
     "nodeunit": "~0.11"
