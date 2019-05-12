@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "clui": "~0.3",
-    "nano": "~7.1",
-    "moment": "~2.23.0",
-    "snyk": "^1.124.1"
+    "nano": "~8.1",
+    "moment": "~2.24.0",
+    "snyk": "^1.163.3"
   },
   "devDependencies": {
     "nodeunit": "~0.11"
