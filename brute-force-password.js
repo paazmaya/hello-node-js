@@ -1,7 +1,7 @@
 /**
  * Brute force a password that uses SHA1 hash for encryption
  */
-'use strict';
+
 
 var crypto = require('crypto'),
 	util = require('util');

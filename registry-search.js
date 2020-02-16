@@ -2,7 +2,7 @@
  * Search latest version of the given keyword
  * matching package
  */
-'use strict';
+
 
 var name = 'node-sass';
 var url = 'http://registry.npmjs.org';
